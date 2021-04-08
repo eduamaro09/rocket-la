@@ -1,5 +1,11 @@
 # API REST ROCKET.LA
 
+## Todo el proyecto puede ser ejecutado desde esta imagen de docker mediante el siguiente comando
+
+```bash
+> dockr run -p 5000:5000 rocket-la-test
+```
+
 ### Tecnologías
 * **Python**: `v3.8.5`
 
@@ -14,6 +20,8 @@
 
 
 ### Descargar información en formato jsons
+
+
 * `./download_pokemon.sh` debe tener permisos de ejecución
 * Dentro del archivo están explicadas las variables que se requiere configurar
 ```bash
@@ -35,7 +43,7 @@ En el archivo se comentan las variables y datos necesarios para su ejecución
 
 
 
-### Instalación de la aplicación
+### I**nstalación de la aplicación
 ```bash
 > pip install -r requirements.txt
 ```
