@@ -3,6 +3,13 @@
 ## Todo el proyecto puede ser ejecutado desde esta imagen de docker mediante el siguiente comando
 
 ```bash
+: '
+La imagen de docker puede ser descargada desde esta url "https://hub.docker.com/repository/docker/eduamaro09/rocket-la-test"'
+> docker run -p 5000:5000 eduamaro09/rocket-la-test
+```
+
+
+```bash
 > dockr run -p 5000:5000 rocket-la-test
 ```
 
